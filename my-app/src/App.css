@@ -1,0 +1,139 @@
+@import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a, a:hover {
+    color: black;
+}
+
+.backTop {
+    height: 40;
+    width: 40;
+    line-height: '40px';
+    border-radius: 4;
+    background-color: '#46A049';
+    color: '#fff';
+    margin-left: '32px';
+    text-align: 'center';
+    font-size: 14;
+}
+
+/* Header */
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    margin-right: 16px;
+}
+
+.menuBar {
+    padding: 0 10%;
+    height: 64px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    box-shadow: 0 0 30px #f3f1f1;
+    background-color: rgba(3,37,65, 1);
+}
+
+.menuBar a {
+    color: white;
+}
+
+.leftMenu a {
+    margin: 0 8px;
+    padding: 0 4px
+}
+.menuCon{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Home */
+.header {
+
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    padding: 0 2%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header h2 {
+    color: rgb(5, 5, 59);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 0;
+}
+
+.header h3 {
+    color: rgb(5, 5, 59);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    margin: 0;
+}
+
+.section {
+   
+    background-size: cover;
+    background-position: center;
+    margin-left: -2%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 0;
+}
+
+.section h3 {
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.scroll {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.ant-card {
+    margin: 8px 24px 8px 0;
+    display: inline-block !important;
+    border: 0;
+}
+
+.ant-card-cover img {
+    border-radius: 8px;
+}
+
+/* Movie */
+.movie-item, .game-item {
+    display: flex;
+    padding: 2%; 
+}
+
+.movie-detail, .game-detail {
+    padding-left: 2%;
+}
